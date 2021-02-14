@@ -2,6 +2,7 @@ menulist = []
 pricelist = []
 totalprice = int()
 
+
 def bill():
   print("========FOOD DOG=======")
   for number in range(len(menulist)):
@@ -17,4 +18,4 @@ while True:
     totalprice += menuprice
 
 bill()
-print("Total price is " ,totalprice, "Bth")
+print("Totaprice is " ,totalprice, "Bth")
