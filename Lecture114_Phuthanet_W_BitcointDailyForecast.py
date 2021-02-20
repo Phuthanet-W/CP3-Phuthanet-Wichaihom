@@ -47,7 +47,7 @@ forecast_period = Label(window, text=" Period (Day)").grid(row=5, column=0)
 input_forecast_period = Entry(window)
 input_forecast_period.grid(row=5, column=1)
 
-resultbutton = Button(window, text=" Next month price (THB)")
+resultbutton = Button(window, text=" Next day price (THB)")
 resultbutton.bind('<Button-1>', Left_click)
 resultbutton.grid(row=6, column=0)
 result = Label(window, text="Result")
